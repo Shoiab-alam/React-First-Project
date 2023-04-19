@@ -1,0 +1,6 @@
+.menu_active {
+    color:white;
+}
+.menu_active:hover {
+    color: blue
+}

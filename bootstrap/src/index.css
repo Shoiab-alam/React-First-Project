@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Montserrat:wght@100&family=Mulish&family=Schibsted+Grotesk&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  background: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.8rem !important;  
+  color:#565387 !important; 
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  text-transform: capitalize;  
+  text-decoration: none;
+}
+.menu-active {
+  font-weight:bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3498ab !important;
+}
+.btn-get-started {
+  border: 1px solid #0d6efd;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  color:#0d6efd;
+  transition: 0.5s ease-out;
+}
+.btn-get-started:hover {
+  background: #0d6efd;
+  color:white;
+  padding:15px;
+}
+
+.home {
+  margin-top: 130px;
+}
+.img-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: mymove 5s ease-in-out infinite alternate-reverse both;
+  margin-top: 130px;
+}
+.img-1 img {
+  width: 400px;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 50px;}
+}
+@media (max-width:1000px){
+  .navbar a {
+    font-size:1.1rem;
+    padding: 8px 0px;
+  }
+
+  .img-1 {
+    margin-top: 150px;
+  }
+  .home {
+    margin-top: 150px;
+  }
+}
+@media (max-width:767px){
+
+
+  .img-1 {
+    margin-top: 50px;
+  }
+  .home {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width:900px){
+  .navbar a {
+    padding: 5px 10px;
+  }
+}
